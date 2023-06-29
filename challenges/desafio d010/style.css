@@ -1,0 +1,87 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'droid';
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(146, 251, 193);
+    margin: 0px;
+}
+
+header {
+    background: rgb(0,255,134);
+    background: linear-gradient(180deg, rgba(0,255,134,1) 0%, rgba(52,99,78,1) 66%);
+    padding: 10px;
+    margin: auto;
+    box-shadow: 1px 1px 1px black;
+    
+}
+
+div.imagem {
+    text-align: center;
+}
+
+article#principaltxt {
+    background-color: white;
+    border-top: 0px;
+    margin: auto;
+    padding: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.418);
+}
+
+
+h1#principal {
+    color: white;
+    text-align: justify;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif   
+}
+
+p#head {
+    color: white;
+    text-align: justify;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 35px;
+}
+
+nav > a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    color: white;
+    text-align: justify;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: droid;
+    color: green;
+}
+
+p {
+    text-indent: 25px;
+}
+
+h2 {
+    font-family: droid;
+    color: green;
+    background: rgb(0,255,134);
+    background: linear-gradient(90deg, rgba(0,255,134,0.7049194677871149) 0%, rgba(202,255,232,0.3435749299719888) 66%);
+}
+
+a.linkext {
+    font-weight: bold;
+    color: green;
+}
+
+
+footer > p {
+    margin: 0px;
+}
